@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.meme{
+  position: relative;
+  width: 40%;
+  height: 40%;
+  margin:auto;
+}
+.meme span{
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  margin-top: 5%;
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  overflow-wrap: break-word;
+  text-align: center;
+  display: block;
+}
+
+.meme span:nth-child(1){
+top: 70%;
+
+}
+.meme img{
+  width: 100%;
+}
